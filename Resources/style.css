@@ -45,6 +45,7 @@ body {
     flex-flow: column wrap;
     top: -5px;
     max-width: 500px;
+    width: 100%;
     padding: 40px 20px;
 }
 
