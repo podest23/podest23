@@ -90,7 +90,8 @@ body {
     
 
     .site-container {
-        margin-top: 50vh;
+        margin-top: 30vh;
+        margin-bottom: 30px;
     }
 
     #grid-1 {
@@ -140,6 +141,15 @@ body {
     h1{ margin-top: -28px; }
   }
 
+  /* huge screens */
+  @media only screen and (min-width: 1600px) {
+    html {
+        font-size: 24px;
+    }
+    .site-container {
+        max-width: 1200px;
+    }
+  }
 
 /* Tabelle Öffnungszeiten */
   table.time-table{
