@@ -81,7 +81,7 @@ body {
   }
 
   @media only screen and (max-width: 900px) {
-    body {
+    html {
         background-image: url("./podest-bg.jpg");
         background-position: center;
         background-attachment: fixed;
@@ -112,7 +112,7 @@ body {
   }
 
   @media only screen and (min-width: 900px) {
-    body {
+    html {
         background-image: url("./podest-bg-landscape.jpg");
         background-position: center;
         background-size: cover;
