@@ -90,6 +90,11 @@ body {
         max-width: 400px;
     }
 
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
     
 
     .site-container {
@@ -217,7 +222,7 @@ a.container-link {
 }
 
 .footer{
-    padding: 20px;
+    padding-left: 20px;
 }
 
 a.footer-impressum {
