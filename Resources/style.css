@@ -212,3 +212,18 @@ a.container-link {
 #grid-back h2 {
     margin-bottom: 10px;
 }
+
+a.footer-impressum {
+    font-size: 0.8rem;
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+a.footer-impressum:link {
+    text-decoration: none;
+}
+
+a.footer-impressum:visited {
+    text-decoration: none;
+}
