@@ -17,7 +17,15 @@ html {
 
 }
 
-
+.bg-responsive {
+    background: url("./podest-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
 
 p {
     font-size: 1rem;
@@ -81,12 +89,12 @@ body {
   }
 
   @media only screen and (max-width: 900px) {
-    html {
+  /*  html {
         background-image: url("./podest-bg.jpg");
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
-    }
+    } */
     .site-container {
         max-width: 400px;
     }
