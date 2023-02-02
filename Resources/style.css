@@ -248,3 +248,23 @@ a.footer-impressum:link {
 a.footer-impressum:visited {
     text-decoration: none;
 }
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+.grid-back h2:link {
+    text-decoration: none;
+}
+
+.grid-back h2:visited {
+    text-decoration: none;
+}
