@@ -65,12 +65,13 @@ a.button {
 
 a.button:hover {
     transition: 0.2s;
-    background-color: rgba(173, 173, 173, 0);
+    background-color: rgba(173, 173, 173, 0.7)
 
 }
 
 a.button:active {
-
+    background-color: rgb(228, 228, 228);
+    transition: 0.1s;
 }
 
 /* Titel */
