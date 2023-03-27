@@ -65,7 +65,7 @@ a.button {
 
 a.button:hover {
     transition: 0.2s;
-    background-color: rgba(173, 173, 173, 0.5);
+    background-color: rgba(173, 173, 173, 0);
 
 }
 
@@ -117,6 +117,21 @@ body {
     position: relative;
   }
 
+  div.grid-link-header {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.grid-link-header a{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+
   @media only screen and (max-width: 900px) {
   /*  html {
         background-image: url("./podest-bg.jpg");
@@ -144,8 +159,11 @@ body {
     #grid-1 {
         margin-bottom: 40px;
     }
+
+
     .grid-content {
         margin-bottom: 20px;
+        position: relative;
     }
   }
 
@@ -196,6 +214,10 @@ body {
         grid-area: 3/3/span 1/span 1;
     }
 
+    #grid-2-3{
+        grid-area: 2/1/span 2/span 1;
+    }
+
 
 
     #grid-anmeldung {
@@ -235,7 +257,17 @@ body {
     text-align: right;
   }
 
+li {
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem; 
+    list-style: none;
+}
 
+.programm-times {
+    font-size: 0.6rem;
+    font-weight: 500;
+    font-style: normal;
+}
 
 
   /*Link im Text */
